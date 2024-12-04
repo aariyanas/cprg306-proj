@@ -15,7 +15,7 @@ export default function Home() {
           Login
         </button>
       </div>
-        <div className="mt-20 pl-16 ml-96">
+        <div className="mt-20 text-center">
           <h1 className="text-5xl text-orange-400 font-bold ml-4">Welcome to Tier 4U!</h1>
           <h2 className="text-2xl text-rose-500 font-semibold ml-11 mt-4">Your own personal tier ranking tool</h2>
         </div>

@@ -9,7 +9,7 @@ export default function Home() {
           alt="logo"
           width={100}
           height={100}
-          className="mr-auto bg-transparent mt-8 ml-8 text-slate-50"
+          className="mr-auto bg-transparent mt-8 ml-8"
           />
         <button className="bg-blue-400 text-slate-800 font-bold h-8 mt-6 px-3 rounded-lg border-2 border-slate-800 ml-auto mr-10 hover:underline active:bg-blue-300">
           Login

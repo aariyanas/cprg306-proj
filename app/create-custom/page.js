@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 import TierList from "./newTemplate.js";
 
-export default function createCustomPage() {
+export default function CustomPage() {
     const [templateName, setTemplateName] = useState("");
     const [category, setCategory] = useState("");
     
@@ -12,8 +12,7 @@ export default function createCustomPage() {
         let template = {
             name: templateName,
             category: category,
-            
-          };
+        };
 
         addTemplate(template);
         setCategory("");

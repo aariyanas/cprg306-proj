@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import React from "react";
 
 export default function Option({name}) {
@@ -8,4 +9,8 @@ export default function Option({name}) {
             </ul>
         </div>
     )
+=======
+export default function Option({name}) {
+
+>>>>>>> Stashed changes
 }

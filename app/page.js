@@ -16,6 +16,7 @@ export default function Home() {
           Login
         </button>
       </div>
+<<<<<<< Updated upstream
       <div className="mt-20 text-center">
         <h1 className="text-5xl text-orange-400 font-bold ml-4">
           Welcome to Tier 4U!
@@ -49,6 +50,24 @@ export default function Home() {
           Create your own template
         </Link>
       </div>
+=======
+        <div className="mt-20 text-center">
+          <h1 className="text-5xl text-orange-400 font-bold ml-4">Welcome to Tier 4U!</h1>
+          <h2 className="text-2xl text-rose-500 font-semibold ml-11 mt-4">Your own personal tier ranking tool</h2>
+        </div>
+        <div className="m-10">
+          <p className="text-lg text-slate-100 text-center">Tier 4 U is a place where you can rank and keep track of all of your favourite (or least favourite!) things. Get started below by browsing available <br></br> templates by category or create your own template for everyone to use if you want to rank something that doesn't already have a template created!</p>
+          <p className="text-lg text-slate-100 text-center mt-6">You must have an account to save your progress in any template, or to create your own template. <br></br>Press the login button to login or create an account if you don't have one.</p>
+        </div>
+        <div className="flex mt-20 place-content-center space-x-36 mx-12">
+          <Link href= "http://localhost:3001/browse-avail" className="bg-cyan-900 text-slate-100 font-semibold rounded-xl border-2 border-slate-100 px-3 py-2 hover:underline active:bg-cyan-800">
+            Browse available categories
+          </Link>
+          <Link href= "http://localhost:3000/create-custom" className="bg-cyan-900 text-slate-100 font-semibold rounded-xl border-2 border-slate-100 px-3 py-2 hover:underline active:bg-cyan-800">
+            Create your own template
+          </Link>
+        </div>
+>>>>>>> Stashed changes
     </div>
   );
 }

@@ -12,6 +12,7 @@ export default function CategoryList({categories}) {
         while (index < categories.length) {
             if (categories[index].name === selected) {
 
+<<<<<<< Updated upstream
                 break;
             }
             index++;
@@ -45,4 +46,16 @@ export default function CategoryList({categories}) {
             </div>
         )
     }
+=======
+    return(
+        <main className="flex items-center">
+            <h1 className="text-3xl font-semibold">Categories</h1>
+            <ul className="list-item items-center">
+                {sorted.map((category) => (
+                    <Category key={category.name} name={category.name} />
+                ))}
+            </ul>
+        </main>
+    )
+>>>>>>> Stashed changes
 }

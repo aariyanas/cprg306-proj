@@ -43,7 +43,7 @@ export default function Home() {
           Browse available templates
         </button>
         <Link
-          href="http://localhost:3001/create-custom"
+          href="http://localhost:3000/create-custom"
           className="bg-cyan-900 text-slate-100 font-semibold rounded-xl border-2 border-slate-100 px-3 py-2 hover:underline active:bg-cyan-800"
         >
           Create your own template

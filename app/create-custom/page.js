@@ -59,9 +59,14 @@ export default function CustomPage() {
                 <select
                     value={category}
                     className="py-2 px-2 mt-3 rounded-sm text-black"
-                    onChange={handleCategory}
-                    
-                ></select>
+                    onChange={handleCategory} 
+                >
+                    <option value="Brands">Brands</option>
+                    <option value="Disney">Disney</option>
+                    <option value="Pokemon">Pokemon</option>
+                    <option value="Programming Languages">Programming Languages</option>
+                    <option value="Sports">Sports</option>
+                </select>
                 </form>
             </div>
         </div>

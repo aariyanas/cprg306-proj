@@ -1,17 +1,661 @@
 [
     {
-        "name": "Brands"
+        "name": "Brands",
+        "optionsList": [
+            {
+                "name": "Car Brands",
+                "options": [
+                    { "name": "Toyota" },
+                    { "name": "Ford" },
+                    { "name": "Honda" },
+                    { "name": "Chevrolet" },
+                    { "name": "Nissan" },
+                    { "name": "Jeep" },
+                    { "name": "Subaru" },
+                    { "name": "Hyundai" },
+                    { "name": "Kia" },
+                    { "name": "Volkswagen" },
+                    { "name": "Audi" },
+                    { "name": "BMW" },
+                    { "name": "Mercedes" }
+                ]
+            },
+            {
+                "name": "Fast Food Chains",
+                "options": [
+                    { "name": "McDonald's" },
+                    { "name": "Burger King" },
+                    { "name": "KFC" },
+                    { "name": "Subway" },
+                    { "name": "Taco Bell" },
+                    { "name": "Wendy's" },
+                    { "name": "Pizza Hut" },
+                    { "name": "Dunkin'" },
+                    { "name": "Starbucks" },
+                    { "name": "Chipotle" },
+                    { "name": "Chick-fil-A" },
+                    { "name": "Popeyes" },
+                    { "name": "Domino's" }
+                ]
+            },
+            {
+                "name": "High Fashion Brands",
+                "options": [
+                    { "name": "Gucci" },
+                    { "name": "Prada" },
+                    { "name": "Dior" },
+                    { "name": "Burberry" },
+                    { "name": "Hermès" },
+                    { "name": "Balenciaga" },
+                    { "name": "Yves Saint Laurent" },
+                    { "name": "Fendi" },
+                    { "name": "Givenchy" },
+                    { "name": "Valentino" },
+                    { "name": "Alexander McQueen" },
+                    { "name": "Dolce & Gabbana" },
+                    { "name": "Jimmy Choo" },
+                    { "name": "Stella McCartney" },
+                    { "name": "Vivienne Westwood" },
+                    { "name": "Christian Louboutin" },
+                    { "name": "Marc Jacobs" },
+                    { "name": "Ralph Lauren" },
+                    { "name": "Louis Vuitton" },
+                    { "name": "Calvin Klein" },
+                    { "name": "Chanel" },
+                    { "name": "Versace" }
+                ]
+            },
+            {
+                "name": "Popular Clothing Brands",
+                "options": [
+                    { "name": "Nike" },
+                    { "name": "Adidas" },
+                    { "name": "Levi's" },
+                    { "name": "Zara" },
+                    { "name": "Forever 21" },
+                    { "name": "American Eagle" },
+                    { "name": "Abercrombie & Fitch" },
+                    { "name": "Aéropostale" },
+                    { "name": "Hollister" },
+                    { "name": "Urban Outfitters" },
+                    { "name": "Gap" },
+                    { "name": "Old Navy" },
+                    { "name": "Banana Republic" },
+                    { "name": "Express" },
+                    { "name": "J.Crew" },
+                    { "name": "Mango" },
+                    { "name": "Topshop" },
+                    { "name": "Forever 21" },
+                    { "name": "H&M" },
+                    { "name": "Uniqlo" }
+                ]
+            },
+            {
+                "name": "Popular Sportswear Brands",
+                "options": [
+                    { "name": "Puma" },
+                    { "name": "Champion" },
+                    { "name": "Lululemon" },
+                    { "name": "Nike" },
+                    { "name": "Under Armour" },
+                    { "name": "Reebok" },
+                    { "name": "New Balance" },
+                    { "name": "Fila" }
+                ]
+            },
+            {
+                "name": "Tech Brands",
+                "options": [
+                    { "name": "Apple" },
+                    { "name": "Samsung" },
+                    { "name": "Microsoft" },
+                    { "name": "Sony" },
+                    { "name": "Google" },
+                    { "name": "Dell" },
+                    { "name": "HP" },
+                    { "name": "Lenovo" },
+                    { "name": "Asus" },
+                    { "name": "Acer" },
+                    { "name": "Toshiba" },
+                    { "name": "LG" },
+                    { "name": "Nokia" },
+                    { "name": "Motorola" },
+                    { "name": "Blackberry" },
+                    { "name": "Huawei" }
+                ]
+            }
+        ]
     },
     {
-        "name": "Disney"
+        "name": "Disney",
+        "optionsList": [
+            {
+                "name": "Disney Channel Shows",
+                "options": [
+                    { "name": "Hannah Montana" },
+                    { "name": "Lizzie McGuire" },
+                    { "name": "The Suite Life of Zack & Cody" },
+                    { "name": "Wizards of Waverly Place" },
+                    { "name": "Phineas and Ferb" },
+                    { "name": "Good Luck Charlie" },
+                    { "name": "Jessie" },
+                    { "name": "Austin & Ally" },
+                    { "name": "Liv and Maddie" },
+                    { "name": "That's So Raven" },
+                    { "name": "Kim Possible" }
+                ]
+            },
+            {
+                "name": "Disney Princesses",
+                "options": [
+                    { "name": "Cinderella" },
+                    { "name": "Snow White" },
+                    { "name": "Ariel" },
+                    { "name": "Belle" },
+                    { "name": "Rapunzel" },
+                    { "name": "Jasmine" },
+                    { "name": "Aurora" },
+                    { "name": "Tiana" },
+                    { "name": "Merida" },
+                    { "name": "Pocahontas" },
+                    { "name": "Mulan" },
+                    { "name": "Moana" }
+                ]
+            },
+            {
+                "name": "Popular Disney Characters",
+                "options": [
+                    { "name": "Mickey Mouse" },
+                    { "name": "Donald Duck" },
+                    { "name": "Goofy" },
+                    { "name": "Pluto" },
+                    { "name": "Minnie Mouse" },
+                    {"name": "Daisy Duck"}
+                ]
+            }
+        ]
     },
     {
-        "name": "Pokemon"
+        "name": "Pokemon",
+        "optionsList": [
+            {
+                "name": "Popular Characters",
+                "options": [
+                    { "name": "Pikachu" },
+                    { "name": "Charizard" },
+                    { "name": "Bulbasaur" },
+                    { "name": "Squirtle" },
+                    { "name": "Eevee" }
+                ]
+            },
+            {
+                "name": "Pokemon Games",
+                "options": [
+                    { "name": "Pokémon Red/Blue" },
+                    { "name": "Pokémon Gold/Silver" },
+                    { "name": "Pokémon Sword/Shield" },
+                    { "name": "Pokémon Go" },
+                    { "name": "Pokémon Let's Go" }
+                ]
+            },
+            {
+                "name": "Pokemon Types",
+                "options": [
+                    { "name": "Fire" },
+                    { "name": "Water" },
+                    { "name": "Electric" },
+                    { "name": "Grass" },
+                    { "name": "Psychic" }
+                ]
+            }
+        ]
     },
     {
-        "name": "Programming Languages"
+        "name": "Programming Languages",
+        "optionsList": [
+            {
+                "name": "Most Popular Programming Languages",
+                "options":[
+                    {
+                        "name": "C"
+                    },
+                    {
+                        "name": "C#"
+                    },
+                    {
+                        "name": "C++"
+                    },
+                    {
+                        "name": "Dart"
+                    },
+                    {
+                        "name": "Go"
+                    },
+                    {
+                        "name": "Java"
+                    },
+                    {
+                        "name": "JavaScript"
+                    },
+                    {
+                        "name": "Perl"
+                    },
+                    {
+                        "name": "PHP"
+                    },
+                    {
+                        "name": "Python"
+                    },
+                    {
+                        "name": "Ruby"
+                    },
+                    {
+                        "name": "Rust"
+                    },
+                    {
+                        "name": "Scala"
+                    },
+                    {
+                        "name": "Swift"
+                    },
+                    {
+                        "name": "TypeScript"
+                    }
+                ]
+            },
+            {
+                "name": "Web/App Development Frameworks",
+                "options": [
+                    {
+                        "name": "AngularJS"
+                    },
+                    {
+                        "name": "ASP.NET"
+                    },
+                    {
+                        "name": "Bootstrap"
+                    },
+                    {
+                        "name": "Django"
+                    },
+                    {
+                        "name": "Ember"
+                    },
+                    {
+                        "name": "KnockoutJS"
+                    },
+                    {
+                        "name": "Kotlin"
+                    },
+                    {
+                        "name": "Next.js"
+                    },
+                    {
+                        "name": "Node.js"
+                    },
+                    {
+                        "name": "React"
+                    },
+                    {
+                        "name": "Ruby on Rails"
+                    },
+                    {
+                        "name": "Spring"
+                    },
+                    {
+                        "name": "Svelte"
+                    },
+                    {
+                        "name": "TailwindCSS"
+                    },
+                    {
+                        "name": "Vue.js"
+                    }
+                ]
+            },
+            {
+                "name": "Popular Databases",
+                "options": [
+                    {
+                        "name": "Cassandra"
+                    },
+                    {
+                        "name": "Couchbase"
+                    },
+                    {
+                        "name": "CouchDB"
+                    },
+                    {
+                        "name": "DynamoDB"
+                    },
+                    {
+                        "name": "Firebase"
+                    },
+                    {
+                        "name": "MariaDB"
+                    },
+                    {
+                        "name": "MongoDB"
+                    },
+                    {
+                        "name": "MySQL"
+                    },
+                    {
+                        "name": "Oracle"
+                    },
+                    {
+                        "name": "PostgreSQL"
+                    },
+                    {
+                        "name": "Redis"
+                    },
+                    {
+                        "name": "SQLite"
+                    }
+                ]
+            }
+        ]
     },
     {
-        "name": "Sports"
+        "name": "Music",
+        "optionsList": [
+            {
+                "name": "EDM Artists",
+                "options": [
+                    {
+                        "name": "Alan Walker"
+                    },
+                    {
+                        "name": "Avicii"
+                    },
+                    {
+                        "name": "Calvin Harris"
+                    },
+                    {
+                        "name": "David Guetta"
+                    },
+                    {
+                        "name": "Deadmau5"
+                    },
+                    {
+                        "name": "Diplo"
+                    },
+                    {
+                        "name": "DJ Snake"
+                    },
+                    {
+                        "name": "Flume"
+                    },
+                    {
+                        "name": "Galantis"
+                    },
+                    {
+                        "name": "Gryffin"
+                    },
+                    {
+                        "name": "Hardwell"
+                    },
+                    {
+                        "name": "Illenium"
+                    },
+                    {
+                        "name": "Kygo"
+                    },
+                    {
+                        "name": "Marshmello"
+                    },
+                    {
+                        "name": "Martin Garrix"
+                    },
+                    {
+                        "name": "Skrillex"
+                    },
+                    {
+                        "name": "Steve Aoki"
+                    },
+                    {
+                        "name": "The Chainsmokers"
+                    },
+                    {
+                        "name": "Tiësto"
+                    },
+                    {
+                        "name": "Zedd"
+                    },
+                    {
+                        "name": "Kygo"
+                    },
+                    {
+                        "name": "Marshmello"
+                    },
+                    {
+                        "name": "Martin Garrix"
+                    },
+                    {
+                        "name": "Sigala"
+                    },
+                    {
+                        "name": "Skrillex"
+                    },
+                    {
+                        "name": "Steve Aoki"
+                    },
+                    {
+                        "name": "The Chainsmokers"
+                    },
+                    {
+                        "name": "Tiësto"
+                    },
+                    {
+                        "name": "Zedd"
+                    }
+                ]
+            },
+            {
+                "name": "Global Music Festivals",
+                "options": [
+                    {
+                        "name": "Bonnaroo"
+                    },
+                    {
+                        "name": "Coachella"
+                    },
+                    {
+                        "name": "Contact"
+                    },
+                    {
+                        "name": "EDC"
+                    },
+                    {
+                        "name": "FVDED in the Park"
+                    },
+                    {
+                        "name": "Electric Forest"
+                    },
+                    {
+                        "name": "Glastonbury"
+                    },
+                    {
+                        "name": "Lollapalooza"
+                    },
+                    {
+                        "name": "Tomorrowland"
+                    },
+                    {
+                        "name": "Ultra Music Festival"
+                    }
+                ]
+            },
+            {
+                "name": "Rappers",
+                "options":[
+                    {
+                        "name": "21 Savage"
+                    },
+                    {
+                        "name": "A Boogie wit da Hoodie"
+                    },
+                    {
+                        "name": "A$AP Rocky"
+                    },
+                    {
+                        "name": "Big Sean"
+                    },
+                    {
+                        "name": "Cardi B"
+                    },
+                    {
+                        "name": "Chance the Rapper"
+                    },
+                    {
+                        "name": "DaBaby"
+                    },
+                    {
+                        "name": "Drake"
+                    },
+                    {
+                        "name": "Eminem"
+                    },
+                    {
+                        "name": "Future"
+                    },
+                    {
+                        "name": "J. Cole"
+                    },
+                    {
+                        "name": "Juice WRLD"
+                    },
+                    {
+                        "name": "Kanye West"
+                    },
+                    {
+                        "name": "Kendrick Lamar"
+                    },
+                    {
+                        "name": "Lil Baby"
+                    },
+                    {
+                        "name": "Lil Uzi Vert"
+                    },
+                    {
+                        "name": "Lil Wayne"
+                    },
+                    {
+                        "name": "Logic"
+                    },
+                    {
+                        "name": "Migos"
+                    },
+                    {
+                        "name": "Nas"
+                    },
+                    {
+                        "name": "Nicki Minaj"
+                    },
+                    {
+                        "name": "Post Malone"
+                    },
+                    {
+                        "name": "Roddy Ricch"
+                    },
+                    {
+                        "name": "Snoop Dogg"
+                    },
+                    {
+                        "name": "Travis Scott"
+                    },
+                    {
+                        "name": "Tyga"
+                    },
+                    {
+                        "name": "Wiz Khalifa"
+                    },
+                    {
+                        "name": "Lil Uzi Vert"
+                    },
+                    {
+                        "name": "Lil Wayne"
+                    },
+                    {
+                        "name": "Logic"
+                    },
+                    {
+                        "name": "Migos"
+                    },
+                    {
+                        "name": "Nas"
+                    },
+                    {
+                        "name": "Nicki Minaj"
+                    },
+                    {
+                        "name": "Post Malone"
+                    },
+                    {
+                        "name": "Roddy Ricch"
+                    },
+                    {
+                        "name": "Snoop Dogg"
+                    },
+                    {
+                        "name": "Travis Scott"
+                    },
+                    {
+                        "name": "Tupac"
+                    },
+                    {
+                        "name": "Tyga"
+                    },
+                    {
+                        "name": "Wiz Khalifa"
+                    }
+                ]
+            },
+            {
+                "name": "Taylor Swift Songs",
+                "options": [
+                    { "name": "Love Story" },
+                    { "name": "You Belong With Me" },
+                    { "name": "Shake It Off" },
+                    { "name": "Blank Space" },
+                    { "name": "All Too Well" },
+                    { "name": "Red" },
+                    {"name": "August"},
+                    { "name": "Mean" },
+                    { "name": "Style" },
+                    { "name": "Bad Blood" },
+                    { "name": "22" },
+                    { "name": "The Story of Us" },
+                    { "name": "Mine" },
+                    { "name": "Our Song" },
+                    { "name": "Teardrops on My Guitar" },
+                    { "name": "Tim McGraw" },
+                    { "name": "White Horse" },
+                    { "name": "Picture to Burn" },
+                    { "name": "Should've Said No" },
+                    { "name": "Lover"},
+                    { "name": "Wildest Dreams" },
+                    { "name": "Back to December" },
+                    { "name": "Fearless" },
+                    { "name": "Look What You Made Me Do" },
+                    { "name": "Delicate" },
+                    { "name": "Getaway Car" },
+                    { "name": "I Did Something Bad" },
+                    { "name": "Don't Blame Me" },
+                    { "name": "King of My Heart" },
+                    { "name": "Dress" },
+                    { "name": "Call It What You Want" },
+                    { "name": "New Year's Day" },
+                    { "name": "Cardigan" },
+                    { "name": "Willow" },
+                    { "name": "Invisible String" },
+                    { "name": "The 1" },
+                    { "name": "Exile" },
+                    { "name": "Betty" },
+                    { "name": "The Last Great American Dynasty" },
+                    { "name": "The Archer" }
+                ]
+            }
+        ]
     }
 ]

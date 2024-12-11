@@ -25,9 +25,9 @@ export default function Home() {
           <p className="text-lg text-slate-100 text-center mt-6">You must have an account to save your progress in any template, or to create your own template. <br></br>Press the login button to login or create an account if you don't have one.</p>
         </div>
         <div className="flex mt-20 place-content-center space-x-36 mx-12">
-          <button className="bg-cyan-900 text-slate-100 font-semibold rounded-xl border-2 border-slate-100 px-3 py-2 hover:underline active:bg-cyan-800">
-            Browse available templates
-          </button>
+        <Link href= "http://localhost:3000/browse-avail" className="bg-cyan-900 text-slate-100 font-semibold rounded-xl border-2 border-slate-100 px-3 py-2 hover:underline active:bg-cyan-800">
+            Browse Available Templates
+          </Link>
           <Link href= "http://localhost:3000/create-custom" className="bg-cyan-900 text-slate-100 font-semibold rounded-xl border-2 border-slate-100 px-3 py-2 hover:underline active:bg-cyan-800">
             Create your own template
           </Link>
